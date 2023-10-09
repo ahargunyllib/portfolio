@@ -15,8 +15,11 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
     "autoprefixer": "^10.4.16",
     "gatsby": "^5.12.4",
+    "gatsby-plugin-manifest": "^5.12.1",
     "gatsby-plugin-postcss": "^6.12.0",
     "postcss": "^8.4.31",
     "react": "^18.2.0",
