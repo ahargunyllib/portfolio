@@ -2,7 +2,7 @@ import React from 'react'
 // import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 
 const ProjectSkill = ({skill, key}) => {
-    console.log('skill in ProjectSkill: ', skill)
+    // console.log('skill in ProjectSkill: ', skill)
 
     return (
         <span className="border-green-400 rounded-md border-2 p-2 mr-3 mb-3 ">{skill}</span>
@@ -10,7 +10,7 @@ const ProjectSkill = ({skill, key}) => {
 }
 
 const ProjectSkills = ({skills}) => {
-    console.log('skills in ProjectSkills: ', skills)
+    // console.log('skills in ProjectSkills: ', skills)
 
     return (
         <div className="flex flex-wrap">
@@ -22,7 +22,7 @@ const ProjectSkills = ({skills}) => {
 }
 
 const ProjectCard = ({project, key}) => {
-    console.log('project in ProjectCard: ', project)
+    // console.log('project in ProjectCard: ', project)
 
     return (
         <div className="mb-16 mx-auto text-white bg-blue-950 shadow-lg shadow-transparent relative flex flex-col justify-end rounded-md w-full p-9 box-border">
@@ -39,7 +39,7 @@ const ProjectCard = ({project, key}) => {
 
 
 const Projects = ({projects}) => {
-    console.log('projects in Projects: ', projects)
+    // console.log('projects in Projects: ', projects)
 
     return (
         <div id="projects">

@@ -1,5 +1,7 @@
 import React from 'react'
+import { Scrollchor } from 'react-scrollchor'
 import Typewriter from './Typewriter'
+
 
 const Hero = () => {
     return (
@@ -11,7 +13,7 @@ const Hero = () => {
                 I'm an Undergraduate Computer Science Student at Brawijaya University. I'm interested in Backend Development, Mobile App Development, Game Development, Cybersecurity, Artificial Intelligence, and Competitive Programming.
             </p>
             <p className="text-left mt-6 text-lg leading-8">
-                Check out my <a href="#projects" className="text-blue-600 font-bold">side-projects</a> below
+                Check out my <Scrollchor to="#projects" className="text-blue-600 font-bold">side-projects</Scrollchor> below
             </p>
         </div>
     )

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Scrollchor } from 'react-scrollchor'
 
 const navigation = [
     { name: 'Projects', href: '#projects' },
@@ -11,9 +12,9 @@ const Navbar = () => {
             <nav className="p-6" aria-label="Global"> 
                 <div className="flex gap-x-12">
                     {navigation.map((item) => (
-                        <a key={item.name} href={item.href} className="text-sm font-thin leading-6">
-                        {item.name}
-                        </a>
+                        <Scrollchor key={item.name} to={item.href} className="text-sm font-thin leading-6">
+                            {item.name}
+                        </Scrollchor>
                     ))}
                 </div>
             </nav>
