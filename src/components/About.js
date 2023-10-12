@@ -3,7 +3,7 @@ import React from 'react'
 const Statement = ({statement, index}) => {
     return (
         <>
-            <div className="mb-6 mx-9 leading-6">
+            <div className="mb-6 mx-5 sm:mx-9 leading-6">
                 &gt; {statement.input}
                 <div className="text-lime-400" dangerouslySetInnerHTML={{__html: statement.return}}/>
             </div>
